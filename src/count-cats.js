@@ -11,15 +11,3 @@ module.exports = function countCats(array) {
 
     return result;
 };
-
-
-
-[
-  [0, 1, '^^'],
-  [0, '^^', 2],
-  ['^^', 1, 2]
-]
-
-if (x === '^^'){
-  acc += 1;
-}
