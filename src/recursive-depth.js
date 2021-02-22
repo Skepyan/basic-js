@@ -2,7 +2,9 @@ const CustomError = require("../extensions/custom-error");
 
 module.exports = class DepthCalculator {
   calculateDepth( arr ) {
-      // Фильтруем элементы массива, оставляем только подмассивы
+      
+    
+    // Фильтруем элементы массива, оставляем только подмассивы
       const filtered = arr.filter(function(x){
           return Array.isArray(x)
       });
